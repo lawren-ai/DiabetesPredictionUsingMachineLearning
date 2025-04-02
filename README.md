@@ -37,6 +37,7 @@ A boxplot was created to show the distribution of glucose levels among diabetic 
 #### Age Distribution by Diabetes Outcome
 
 A KDE (Kernel Density Estimation) plot was used to visualize the age distribution for each diabetes outcome.
+![Age distribution by Diabetes Outcome](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Age%20Distribution%20by%20Diabetes%20Outcome.PNG)
 
 ## 🔍 Feature Importance Analysis
 
