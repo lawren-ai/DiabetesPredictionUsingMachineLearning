@@ -33,6 +33,7 @@ The dataset consists of diagnostic measurements related to diabetes, collected f
 
 A boxplot was created to show the distribution of glucose levels among diabetic and non-diabetic individuals.
 
+
 #### Age Distribution by Diabetes Outcome
 
 A KDE (Kernel Density Estimation) plot was used to visualize the age distribution for each diabetes outcome.
@@ -98,20 +99,3 @@ The model predicts a **high risk of diabetes** for this individual.
 - Deploying the model as a web-based or mobile application for real-world use.
 
 ---
-
-### 📌 Repository Structure
-
-```
-/diabetes-prediction
-├── data
-│   ├── diabetes.csv  # Dataset
-├── notebooks
-│   ├── eda.ipynb  # Exploratory Data Analysis
-│   ├── model_training.ipynb  # Model Training and Evaluation
-├── src
-│   ├── risk_estimator.py  # Risk estimation function
-├── README.md  # Project Documentation
-```
-
-This report provides a structured overview of the diabetes prediction project, making it easy for anyone to understand and replicate the work.
-
