@@ -6,4 +6,6 @@ Diabetes mellitus remains a global health issue, causing thousands of deaths eac
 # 💾 Dataset Description
 The dataset consists of diagnostic measurements related to diabetes, collected from a population of Pima Indian women. The dataset includes the following features:
 
-**Feature** | **Type** | **Description**    
+**Feature** | **Type** | **Description**  |
+-----------------------------------------
+Pregnancies | Numerical| Number of times the patient has been pregnant
