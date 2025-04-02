@@ -51,6 +51,8 @@ Feature correlation with the diabetes outcome was computed, and a bar plot was g
 
 A RandomForestClassifier was trained to evaluate feature importance, providing insights into the most critical predictors of diabetes.
 
+![Feature correlation and Importance](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Feature_correlation%20and%20Feature%20Importance.PNG)
+
 ## 📊 Interactive Visualizations
 
 - **Glucose vs BMI:** A scatter plot was created to analyze the relationship between glucose levels, BMI, and diabetes outcome.
