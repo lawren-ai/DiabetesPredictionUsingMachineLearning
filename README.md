@@ -46,6 +46,7 @@ A KDE (Kernel Density Estimation) plot was used to visualize the age distributio
 
 Feature correlation with the diabetes outcome was computed, and a bar plot was generated to highlight the most influential features.
 
+
 ### Random Forest Feature Importance
 
 A RandomForestClassifier was trained to evaluate feature importance, providing insights into the most critical predictors of diabetes.
@@ -53,7 +54,9 @@ A RandomForestClassifier was trained to evaluate feature importance, providing i
 ## 📊 Interactive Visualizations
 
 - **Glucose vs BMI:** A scatter plot was created to analyze the relationship between glucose levels, BMI, and diabetes outcome.
+  ![Glucose vs BMI](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Glucose%20vs%20BMI.PNG)
 - **Age vs Diabetes Pedigree Function:** Another scatter plot was generated to study how age and genetic predisposition influence diabetes diagnosis.
+  ![Age vs Pedigree Function](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Age%20vs%20Diabetes%20Pedigree%20Function.PNG)
 
 ## 🔮 Risk Estimation for a Given Case
 
