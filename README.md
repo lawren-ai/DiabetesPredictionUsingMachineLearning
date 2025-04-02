@@ -32,6 +32,7 @@ The dataset consists of diagnostic measurements related to diabetes, collected f
 #### Glucose Levels by Diabetes Outcome
 
 A boxplot was created to show the distribution of glucose levels among diabetic and non-diabetic individuals.
+![Glucose Levels by Diabetes Outcome](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Glucose%20by%20Diabetes%20Outcome.png)
 
 
 #### Age Distribution by Diabetes Outcome
