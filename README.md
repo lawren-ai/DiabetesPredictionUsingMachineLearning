@@ -20,69 +20,58 @@ The dataset consists of diagnostic measurements related to diabetes, collected f
 | Age                      | Numerical   | Age of the patient in years                    |
 | Outcome                  | Categorical | Diabetes diagnosis (1 = Yes, 0 = No)           |
 
-## 🧐 Exploratory Data Analysis (EDA)
+## 🔧 Tasks Involved
+1️⃣ **Data Preprocessing**
+- Load the dataset
+- Handle missing values and data cleaning
+- Convert `Outcome` to categorical for visualization
 
-### Data Overview
+2️⃣ **Feature Importance Analysis**
+- Train a **Random Forest Classifier** on all available features
+- Extract and rank feature importance scores
+- **Top Features Identified**: `Glucose`, `BMI`, `Age`
 
-- The dataset was loaded and examined using `data.head()` and `data.info()`.
-- The `Outcome` column was treated as a categorical variable.
+3️⃣ **Data Visualization**
+- Boxplot of `Glucose` levels by diabetes outcome
+- KDE plot of `Age` distribution by diabetes outcome
+- Feature importance visualization
+- Interactive plots for better insights
 
-### Visualizations
+4️⃣ **Model Training with Selected Features**
+- Train a **Random Forest Classifier** using only the top 3 features
+- Split data into **80% training, 20% testing**
+- Evaluate model performance using **accuracy, precision, recall, and F1-score**
 
-#### Glucose Levels by Diabetes Outcome
+5️⃣ **Diabetes Risk Prediction**
+- Input test case: **Age = 54, Height = 178 cm, Weight = 96 kg, Glucose = 125 mg/dL**
+- Calculate BMI from height & weight
+- Predict diabetes risk using trained model
+- **Prediction Output**: `87% probability of diabetes (High Risk)`
 
-A boxplot was created to show the distribution of glucose levels among diabetic and non-diabetic individuals.
-![Glucose Levels by Diabetes Outcome](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Glucose%20by%20Diabetes%20Outcome.png)
+## 📊 Results
+- **Feature Importance Scores:**
+  ```plaintext
+  Glucose                     0.257226
+  BMI                         0.168345
+  Age                         0.132573
+  DiabetesPedigreeFunction    0.126038
+  BloodPressure               0.092014
+  Pregnancies                 0.084424
+  Insulin                     0.072200
+  SkinThickness               0.067179
+  ```
+- **Model Accuracy:** `73.38%`
 
+- **Predicted Diabetes Risk Example:**
+  - **Input:** `Age = 54, Height = 178 cm, Weight = 96 kg, Glucose = 125 mg/dL`
+  - **Predicted Status:** `High Risk of Diabetes`
+  - **Diabetes Probability:** `87%`
 
-#### Age Distribution by Diabetes Outcome
-
-A KDE (Kernel Density Estimation) plot was used to visualize the age distribution for each diabetes outcome.
-![Age distribution by Diabetes Outcome](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Age%20Distribution%20by%20Diabetes%20Outcome.PNG)
-
-## 🔍 Feature Importance Analysis
-
-### Correlation Analysis
-
-Feature correlation with the diabetes outcome was computed, and a bar plot was generated to highlight the most influential features.
-
-
-### Random Forest Feature Importance
-
-A RandomForestClassifier was trained to evaluate feature importance, providing insights into the most critical predictors of diabetes.
-
-![Feature correlation and Importance](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Feature_correlation%20and%20Feature%20Importance.PNG)
-
-## 📊 Interactive Visualizations
-
-- **Glucose vs BMI:** A scatter plot was created to analyze the relationship between glucose levels, BMI, and diabetes outcome.
-  ![Glucose vs BMI](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Glucose%20vs%20BMI.PNG)
-- **Age vs Diabetes Pedigree Function:** Another scatter plot was generated to study how age and genetic predisposition influence diabetes diagnosis.
-  ![Age vs Pedigree Function](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Age%20vs%20Diabetes%20Pedigree%20Function.PNG)
-
-## 🔮 Risk Estimation for a Given Case
-
-A function was implemented to estimate the risk of diabetes for an individual based on:
-
-- Age: 54 years
-- Height: 178 cm
-- Weight: 96 kg
-- Glucose Level: 125 mg/dL
-
-The model predicts a **high risk of diabetes** for this individual.
-
-## 🤖 Model Training and Evaluation
-
-### Data Splitting and Scaling
-
-- The dataset was split into training (80%) and testing (20%) sets.
-- StandardScaler was applied to normalize the features.
-
-### Model Selection and Performance
-
-- **Algorithm:** RandomForestClassifier
-- **Accuracy:** Computed using `accuracy_score()`
-- **Classification Report:** Precision, Recall, and F1-score were generated to assess model performance.
+## 📈 Visualizations
+- **Boxplot of Glucose Levels by Outcome** ![Glucose Boxplot](insert_image_here)
+- **Age Distribution by Diabetes Outcome** ![Age KDE Plot](insert_image_here)
+- **Feature Importance Chart** ![Feature Importance](insert_image_here)
+- **Interactive Plots:** Histogram, Scatter Plot, Box Plot, and Violin Plot for deeper insights
 
 ## 🏆 Key Findings
 
@@ -93,11 +82,6 @@ The model predicts a **high risk of diabetes** for this individual.
 - The **RandomForestClassifier** provides high accuracy and can be effectively used for diabetes prediction.
 - Interactive visualizations aid in understanding the relationships between features and diabetes risk.
 
-## 🏆 Results and Conclusion
-
-- The model successfully predicts diabetes cases with high accuracy.
-- Glucose level, BMI, and Age are among the most influential factors.
-- Interactive visualizations provide deeper insights into diabetes risks.
 
 ## 🚀 Future Improvements
 
@@ -106,3 +90,10 @@ The model predicts a **high risk of diabetes** for this individual.
 - Deploying the model as a web-based or mobile application for real-world use.
 
 ---
+## 🔗 References
+- [Scikit-Learn Documentation](https://scikit-learn.org/)
+- [DataCamp](#) *(datacamp.com/datalab)*
+
+---
+**Author:** *Ayotunde Akinboade*  
+📧 Contact: *akinboadelawrenceayo@gmail.com*
