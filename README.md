@@ -70,7 +70,7 @@ The dataset consists of diagnostic measurements related to diabetes, collected f
 ## 📈 Visualizations
 - **Boxplot of Glucose Levels by Outcome** ![Glucose Boxplot](insert_image_here)
 - **Age Distribution by Diabetes Outcome** ![Age KDE Plot](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Age%20Distribution%20by%20Diabetes%20Outcome.PNG)
-- **Feature Importance Chart** ![Feature Importance]()
+- **Feature Importance Chart** ![Feature Importance](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Feature_importance.PNG)
 - **Interactive Plots:** Histogram, Scatter Plot, Box Plot, and Violin Plot for deeper insights
 
 ## 🏆 Key Findings
