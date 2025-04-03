@@ -77,7 +77,7 @@ The dataset consists of diagnostic measurements related to diabetes, collected f
 - **Feature Importance Chart** 
 
 ![Feature Importance](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Feature_importance.PNG)
-- **Interactive Plots Showing relationship between the top four factors determining Diabetes. Go through the notebook ![Notebook]() to interact with the visualizations:**
+- **Interactive Plots Showing relationship between the top four factors determining Diabetes. Go through the notebook ![Notebook](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/DiabetesMellitus%20(1).ipynb) to interact with the visualizations:**
 
 
 - Histogram Showing relationship between diabetes and glucose level
