@@ -80,12 +80,12 @@ The dataset consists of diagnostic measurements related to diabetes, collected f
 - **Interactive Plots:**
 - Histogram Showing relationship between diabetes and glucose level
 ![Histogram](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Diabetes%20by%20glucose%20level.PNG)
-- Scatter Plot
+- Box Plot
 ![Scatter Plot](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Diabetes%20by%20blood%20pressure.PNG)
--  Box Plot
+-  Violin Plot
+![Violin Plot](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Diabetes%20Pedigree%20function%20by%20Diabetes%20status.PNG)
+- Box Plot Showing relationship between diabetes and blood pressure
 ![Box Plot](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Diabetes%20by%20blood%20pressure.PNG)
-- Violin Plot Showing relationship between diabetes and blood pressure
-![Violin Plot](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Diabetes%20by%20blood%20pressure.PNG)
 
 ## 🏆 Key Findings
 
