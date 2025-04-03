@@ -78,11 +78,13 @@ The dataset consists of diagnostic measurements related to diabetes, collected f
 
 ![Feature Importance](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Feature_importance.PNG)
 - **Interactive Plots Showing relationship between the top four factors determining Diabetes. Go through the notebook ![Notebook]() to interact with the visualizations:**
+
+
 - Histogram Showing relationship between diabetes and glucose level
 ![Histogram](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Diabetes%20by%20glucose%20level.PNG)
 - Scatter Plot showing relationship between patient's Age and BMI 
 ![Scatter Plot](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Age%20vs%20BMI.PNG)
--  Violin Plot
+-  Violin Plot Showing relationship between diabetes status and the diabetes pedigree function
 ![Violin Plot](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Diabetes%20Pedigree%20function%20by%20Diabetes%20status.PNG)
 - Box Plot Showing relationship between diabetes and blood pressure
 ![Box Plot](https://github.com/lawren-ai/DiabetesPredictionUsingMachineLearning/blob/main/Diabetes%20by%20blood%20pressure.PNG)
